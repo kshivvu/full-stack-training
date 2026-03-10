@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        .strength {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form id="form">
+
+        <input id="name" placeholder="Name">
+        <p id="nameError" class="error"></p>
+
+        <input id="email" placeholder="Email">
+        <p id="emailError" class="error"></p>
+
+        <input id="phone" placeholder="Phone">
+        <p id="phoneError" class="error"></p>
+
+        <input id="password" type="password" placeholder="Password">
+        <button type="button" id="toggle">Show</button>
+
+        <p id="strength" class="strength"></p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
